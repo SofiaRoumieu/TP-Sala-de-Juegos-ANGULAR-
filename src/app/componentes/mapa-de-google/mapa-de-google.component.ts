@@ -9,6 +9,7 @@ export class MapaDeGoogleComponent implements OnInit {
   title: string = 'El Primer mapa';
   lat: number = 33.678418;
   lng: number = 5.809007;
+ 
    // google maps zoom level
    zoom: number = 8;
    
@@ -20,7 +21,7 @@ export class MapaDeGoogleComponent implements OnInit {
   ngOnInit() {
   }
 
-
+  public mapClicked(evento:Event) {}
   
 
 
