@@ -1,78 +1,76 @@
-<app-cabecera>  </app-cabecera>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/afd04be0fc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+  <app-cabecera>  </app-cabecera>
+  <div class="container">
 
+       <!--  <div class="encabezado">
+          <h4>Menu Principal</h4>
 
+        </div> -->
+        <div  (click)="reditect('Juegos')" class="menu" id="menu">
+           <div>
+             <img src="./assets/imagenes/saladejuegos.png" class="media-object imagenDeMenu" >
 
- 
-<div class="container" >
-   
-    <ul class="list-group">
-        <li class="list-group-item list-group-item-danger">
-           
-                <div class="media-body">
-                    <div class="hero-text">
-                        <h4 >Menú Principal</h4>
-                    </div>
-                 </div>
-               
-             
-          </li>
-        <li class="list-group-item list-group-item-success">
-          <a routerLink="/Juegos">
-            <div class="media">
+           </div>
+           <div class="media-body">
+            <h4 class="media-heading">Juegos</h4>
+            <p>El método lúdico es un conjunto de estrategias diseñadas para crear un ambiente de armonía en los estudiantes que están inmersos en el proceso de aprendizaje. Este método busca que los alumnos se apropien de los temas impartidos por los docentes utilizando el juego.</p>
+          </div>
+
+        </div>
+
+        <div (click)="reditect('Listado')" class="menu" id="menu">
+          <div>
+            <img src="./assets/imagenes/listado.jpg" class="media-object imagenDeMenu" >
+          </div>
+
+          <div class="media-body">
+            <h4 class="media-heading">Listados de resultados</h4>
+            <p>Los listados de los resultados con ordenamiento y busqueda</p>
+          </div>
+        </div>
+        <div (click)="reditect('Listado')" class="menu" id="menu">
+
               <div class="media-left">
-                    <img src="./assets/imagenes/saladejuegos.png" class="media-object imagenDeMenu" >
+              <img src="./assets/imagenes/Configuracion.png" class="media-object imagenDeMenu" >
               </div>
-              <div class="media-body">
-                <h4 class="media-heading">Juegos</h4>
-                <p>El método lúdico es un conjunto de estrategias diseñadas para crear un ambiente de armonía en los estudiantes que están inmersos en el proceso de aprendizaje. Este método busca que los alumnos se apropien de los temas impartidos por los docentes utilizando el juego.</p>
+          <div class="media-body">
+            <h4 class="media-heading">Configuraci&oacute;n</h4>
+            <p>Ajustes de la aplicacion y los métodos de autentificación</p>
+      </div>
+
+        </div>
+        <div (click)="reditect('Jugadores')" class="menu" id="menu">
+              <div class="media-left">
+                <img src="./assets/imagenes/jugadores.png" class="media-object imagenDeMenu" >
               </div>
-             
-            </div> 
-          </a>
-        </li>
-        <li class="list-group-item list-group-item-info">
-            <a routerLink="/Listado">
-              <div class="media">
-                  <div class="media-left">
-                      <img src="./assets/imagenes/listado.jpg" class="media-object imagenDeMenu" >
-                    </div>
-                <div class="media-body">
-                  <h4 class="media-heading">Listados de resultados</h4>
-                  <p>Los listados de los resultados con ordenamiento y busqueda</p>
-                </div>
-                
-              </div> 
-            </a>
-          </li>
-        <li class="list-group-item list-group-item-warning">
-          <a routerLink="/Juegos">
-            <div class="media">
-                <div class="media-left">
-                    <img src="./assets/imagenes/Configuracion.png" class="media-object imagenDeMenu" >
-                  </div>
-              <div class="media-body">
-                <h4 class="media-heading">Configuraci&oacute;n</h4>
-                <p>Ajustes de la aplicacion y los métodos de autentificación</p>
-              </div>
-             
-            </div> 
-          </a>
-        </li>
-        <li class="list-group-item list-group-item-warning">
-          <a routerLink="/Jugadores">
-            <div class="media">
-                <div class="media-left">
-                    <img src="./assets/imagenes/jugadores.png" class="media-object imagenDeMenu" >
-                  </div>
               <div class="media-body">
                 <h4 class="media-heading">Jugadores</h4>
                 <p>Listado de jugadores</p>
               </div>
-             
-            </div> 
-          </a>
-        </li>
-       
-        
-      </ul>
-</div>
+        </div>
+
+  </div>
+
+
+  <!-- <footer>
+
+    <section class="redes_sociales">
+     <div class="contenedor">
+         <a href="https://www.facebook.com/sofi.roumieu" class="facebook"><i class="fa fa-facebook"></i></a>
+         <a href="https://github.com/SofiaRoumieu" class="github"><i class="fa fa-github"></i></a>
+         <a href="https://www.linkedin.com/in/joaqu%C3%ADn-esp%C3%B3sito-04209b194/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+     </div>
+    </section>
+  </footer> -->
+</body>
+</html>

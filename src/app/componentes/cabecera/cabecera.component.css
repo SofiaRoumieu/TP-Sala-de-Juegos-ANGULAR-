@@ -8,6 +8,10 @@
     position: relative;
 }
 
+.listado{
+    display: inline; 
+    float:right;
+}
 
 .hero-text {
 text-align: center;
@@ -18,6 +22,8 @@ transform: translate(-50%, -50%);
 color: #3E06B0;
 }
 
+
+
 .hero-text a {
 border: none;
 outline: 0;
@@ -27,6 +33,9 @@ color: black;
 background-color: #ddd;
 text-align: center;
 cursor: pointer;
+border-color:#081270 ;
+border-style: ridge;
+border-width: 1px;
 }
 
 .hero-text a:hover {
